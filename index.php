@@ -6,8 +6,6 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <?php
-        echo "<h1>Teste now</h1>";
-        ?>
+        <h1>TESTES</h1>
     </body>
 </html>
