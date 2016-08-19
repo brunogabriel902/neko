@@ -1,0 +1,24 @@
+{
+  "name": "neko",
+  "homepage": "https://github.com/brunogabriel902/neko",
+  "authors": [
+    "Bruno <brunogabriel007@hotmail.com>"
+  ],
+  "description": "Sistema nekoweb",
+  "main": "assets/js/default.js",
+  "keywords": [
+    "nekoweb"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
