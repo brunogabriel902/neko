@@ -1,0 +1,27 @@
+{
+  "name": "neko",
+  "version": "1.0.0",
+  "description": "sistema nekoweb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunogabriel902/neko.git"
+  },
+  "keywords": [
+    "nekoweb"
+  ],
+  "author": "Bruno Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunogabriel902/neko/issues"
+  },
+  "homepage": "https://github.com/brunogabriel902/neko#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.9"
+  }
+}
