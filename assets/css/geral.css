@@ -1,0 +1,1 @@
+header{background-image:url("../../assets/images/slide.jpg")}header:before,header:after{content:" ";display:table}header:after{clear:both}header .logo{float:left}header .logo img{width:300px;height:145px;background:#000}header .links{float:right}header .links nav ul li{display:inline-block}header .links nav ul li a{color:#fff;text-transform:uppercase}header p{color:#fff}
