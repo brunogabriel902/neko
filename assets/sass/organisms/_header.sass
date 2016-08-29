@@ -1,11 +1,14 @@
 header
 	+clearfix
+	min-height: 475px
 
 	background:
 		image: url('../../assets/images/slide.jpg')
-		//position:
-		//attachment:
-		//size:
+		position: top center
+		repeat: no-repeat
+		color: $preto
+		attachment: fixed
+		size: cover
 	.logo
 		float: left
 		img
@@ -14,16 +17,29 @@ header
 			background: $preto
 	.links
 		float: right
+
+		nav,
+		.social
+			display: inline-block
+
 		nav
 			ul
 				li
 					display: inline-block
+					margin: 0 20px 0 0
 					a
 						color: $branco
 						text-transform: uppercase
 		.social
+			li
+				display: inline-block
+				margin: 0 20px 0 0
+				a
+					color: $branco
 	h1
-	
+		clear: both
+					
+	h1,
 	p	
 		color: $branco
 	
