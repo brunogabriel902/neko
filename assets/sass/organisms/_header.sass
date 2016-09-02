@@ -13,22 +13,24 @@ header
 		+gradient(90deg, $verde, $azul)
 
 	background:
-		image: url('../../assets/images/slide.jpg')
+		image: url('../images/fundo-slide-pagina-inicial.jpg')
 		position: top center
 		repeat: no-repeat
 		color: $preto
 		attachment: fixed
 		size: cover
+
 	.logo
 		float: left
-		margin: 30px 0 0
+		margin: 30px 0 0 
 		img
 			width: 70px
 			height: 35px
-	
+
 	.links
 		float: right
 		margin: 35px 0 0
+
 		nav,
 		.social
 			display: inline-block
@@ -47,6 +49,7 @@ header
 					a
 						color: $branco
 						text-transform: uppercase
+
 		.social
 			li
 				display: inline-block
@@ -61,19 +64,20 @@ header
 					line-height: 12px
 					text-align: center
 					+border-radius(120px)
+
 	h1
 		clear: both
-		margin: 190px auto 30px auto!important
+		margin: 190px auto 30px auto !important
 		font-weight: $light
 		border: 3px solid $branco
-		padding: 25px 15px
+		padding: 20px
 		display: table
 		+breakpoint($celular)
 			+font-size(40px)
+
+
 	h1,
-	p	
+	p
 		color: $branco
 		text-align: center
 		text-transform: uppercase
-
-	

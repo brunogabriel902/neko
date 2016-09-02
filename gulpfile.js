@@ -4,14 +4,14 @@ var watch = require('gulp-watch');
 
 // task para o sass
 gulp.task('sass', function() {
-    return gulp.src('assets/sass/*.sass')
+    return gulp.src('sass/**/*.sass')
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-        .pipe(gulp.dest('assets/css'));
+        .pipe(gulp.dest('css'));
 });
 
 // task para watch
 gulp.task('watch', function(){
-	gulp.watch('assets/sass/**/*.sass', ['sass']);
+	gulp.watch('sass/**/*.sass', ['sass']);
 });
 
 // task default gulp
